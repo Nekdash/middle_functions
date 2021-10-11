@@ -6,7 +6,7 @@
      }
      int ch = number % 10;
      int res = 0;
-     while (ch == 0){
+     while (number > 0){
         res = res*10 + ch;
         number /= 10;
         ch = number % 10;
