@@ -32,6 +32,6 @@ int itc_rev_covert_num(long long number, int ss); // overload
 
 
 
-long long ipow(long long number, int pow); // works
+long long ipow(long long number, int pow); 
 long long negative(long long number); // works
 #endif // MIDDLE_H_INCLUDED
