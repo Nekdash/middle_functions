@@ -1,7 +1,7 @@
 #include "middle.h"
  int itc_max_num(long long number){
      if ( number < 0){
-        number *= (-10);
+        number *= (-1);
      }
 
      int maxchar = -1;
