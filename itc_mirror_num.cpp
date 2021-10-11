@@ -17,9 +17,9 @@ bool itc_mirror_num(long long number){
       number /= 10;
     }
 
-    if ( res == number1){
+    if ( res == number1)
         return true;
-    }
+    
     return false;
 
 }
