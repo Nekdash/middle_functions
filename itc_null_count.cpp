@@ -2,7 +2,7 @@
 
 int itc_null_count(long long number){
     if ( number < 0){
-        number *= (-10);
+        number *= (-1);
      }
     int res = 0;
     int len = itc_len_num(number);
