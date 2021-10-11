@@ -2,7 +2,7 @@
 
  int itc_min_num(long long number){
      if ( number < 0){
-        number *= (-10);
+        number *= (-1);
      }
      int minchar = number % 10;
      int len = itc_len_num(number);
