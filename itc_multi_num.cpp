@@ -2,7 +2,7 @@
 
 long long itc_multi_num(long long number){
     if ( number < 0){
-        number *= (-10);
+        number *= (-1);
      }
     long long res = 1;
     int len = itc_len_num(number);
