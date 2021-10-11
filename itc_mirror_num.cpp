@@ -4,6 +4,9 @@ bool itc_mirror_num(long long number){
     if (number < 0){
         number = number * (-1);
     }
+    if ( number == 0){
+        return 1;
+    }
     long long res =0 ;
     long long number1 = number;
     int len = itc_len_num(number);
