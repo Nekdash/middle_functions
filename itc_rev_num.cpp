@@ -4,12 +4,12 @@
      if(number < 0){
         number *= (-1);
      }
-     int ch = number % 10;
-     int res = 0;
+     int ch = 0;
+     long long res = 0;
      while (number > 0){
-        res = res*10 + ch;
+        res = res*10 + number%10;
         number /= 10;
-        ch = number % 10;
+        
      }
      return itc_len_num(res);
  }
